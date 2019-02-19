@@ -6,7 +6,6 @@ title: Onderzoek naar huidige buildservers op de markt en bedrijfsinfrastructuur
 ## Inhoud
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Onderzoek naar huidige buildservers op de markt en bedrijfsinfrastructuur](#onderzoek-naar-huidige-buildservers-op-de-markt-en-bedrijfsinfrastructuur)
 	- [Inhoud](#inhoud)
 	- [Huidige infrastructuur](#huidige-infrastructuur)
 		- [Source control](#source-control)
