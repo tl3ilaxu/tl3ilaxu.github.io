@@ -2,6 +2,8 @@
 layout: post
 title: Onderzoek naar huidige buildservers op de markt en bedrijfsinfrastructuur
 ---
+
+De bedoeling van dit onderzoek is om te kijken naar de huidige structuur van een bedrijf en te kijken waar de gebreken zitten. Verder om te kijken hoe deze structuur kan aangepast worden met Continous Integration.
 # Inhoud
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
