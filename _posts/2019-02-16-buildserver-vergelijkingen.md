@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Build server onderzoek
+title: Onderzoek naar huidige buildservers op de markt en bedrijfsinfrastructuur
 ---
 
-# Onderzoek naar huidige buildservers op de markt en bedrijfsinfrastructuur
 ## Inhoud
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
