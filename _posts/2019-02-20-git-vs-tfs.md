@@ -45,22 +45,30 @@ Wanneer er nog geen version management bestaat is de beste oplossing om te gaan 
 Self hosting brengt heel wat nadelen met zich mee zoals: server kosten, configruatie en updates. Maar het brengt ook wat voordelen met zich mee. Zo kan je zoveel data hosten als je zelf wilt zowel privé als publiek. Je bent dus volledig baas van je eigen code.
 
 Voor self hosting is er een groot aanbod. Er zijn ook heel wat build servers die git bevatten als deel van de oplossing. Deze zijn ook interessant voor Continous Integration.
-#### [Git](https://git-scm.com/)
+#### Git
 ![Githeader](/assets/githeader.png)
 Als er enkel en repository nodig is zonder meer dat is dit de beste oplossing. Er is geen web interface aan gelinkt. De interactie met Git gebeurd dus volledig met ssh.
 
 `git remote add origin ssh://git@server/repo->path.git`
 
 Waar path het pad voor de git user is op de server.
-#### [Gitea](https://gitea.io/)
+
+[Website](https://git-scm.com/)
+#### Gitea
 ![Gitea header](/assets/gitea.png)
 Gitea is een Git oplossing met een webinterface. Deze is lightweight en gratis om te self hosten. Er is issue tracking release tagging. Kortom alles wat nodig is voor een simpele git server.
-#### [GitLab](https://about.gitlab.com/)
+
+[Website](https://gitea.io/)
+#### GitLab
 ![GitLab](/assets/gitlabproject.png)
 Gitlab is een DevOps tool met git integratie. Hierin zit alles wat verwacht wordt van een Git webserver en meer. CI en CD is beschikbaar per project. Elke repository is hier dan een project met een pipline. De pipeline wordt dan ingesteld door ofwel AutoDevops ofwel een bash script. AutoDevops zoekt de juiste build tool voor het builden van het programma en stuurt het door naar een agent met minimale nood voor configuratie. GitLab is alleen beschikaar voor Linux als native applicatie.
-#### [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
+
+[Website](https://about.gitlab.com/)
+#### Azure DevOps
 ![Azure](/assets/azuredevopsheader.png)
 Azure DevOps volgt dezelfde structuur als GitLab. Elke repository is ook een project met een pipline etc... Het grote verschil zit hem in dat azure ook TFS ondersteuning bied. En daarinboven kan het ook geinstalleer worden op een windows server als native applicatie.
+
+[Website](https://azure.microsoft.com/en-us/services/devops/)
 
 ### Cloud oplossing
 Wanneer er geen infrastructuur bestaat voor zelf server te hosten is een cloud oplossing te overwegen.
@@ -69,7 +77,6 @@ Azure Devops is gratis voor teams met minder dan 5 mensen. Vanaf 10 mensen begin
 ### Gitlab
 GitLab is gratis voor zoveel gebruikers als je wilt met 2000 pipline minuuten online en self hosted runners. Er zijn ook nog extra betalende features beschikbaar.
 ### GitHub
-![Azure](/assets/azuredevopsheader.png)
 GitHub teams kost 9$ per maand per user. Github bied ook enkel een git oplossing.
 ## Wanneer migereren
 
