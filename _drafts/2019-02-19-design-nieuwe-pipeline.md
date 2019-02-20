@@ -11,5 +11,9 @@ title: Design van een nieuwe pipeline
 # Desing van een nieuwe pipline
 
 ## Focus
-Minimale workflow verandering.  
+Minimale workflow verandering.
 Futurproofing.
+
+
+
+![Initeele pipline diagram](/assets/initialpipelinediagram.png)

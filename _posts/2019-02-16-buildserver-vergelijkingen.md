@@ -45,7 +45,7 @@ Libraries worden aan de source control toegevoegd in 2 repositories:
 
 Verder wordt er ook gebruik gemaakt van sommige nuget packages. Waardoor een nuget install toch nog nodig is.
 
-Voor SAP of Coresuite aplicaties is er ook nog een current folder. Die folder is gelinkt in de build. Deze folder is initeel leeg wanneer die van de repo wordt gehaald. Het is dan de bedoeling dat de juiste versie van SAP en/of Coresuite naar de current directory worden gekopieerd.
+Voor SAP of Coresuite aplicaties is er ook nog een current folder. Die folder is gelinkt in de build. Deze folder is initieel leeg wanneer die van de repo wordt gehaald. Het is dan de bedoeling dat de juiste versie van SAP en Coresuite naar hun current directory worden gekopieerd.
 
 ## Huidige build server
 ![Finalbuild server 7](/assets/finalbuildheader.png)
@@ -53,7 +53,7 @@ Voor SAP of Coresuite aplicaties is er ook nog een current folder. Die folder is
 De huidige build server build projecten wanneer een developer de build triggerd. De successvolle builds worden den gedeployed naar een staging server die ook als ftp server dient.
 
 ## Build configuratie
-De huidige build configuraties maken gebruike van referencies buiten de huidige repository.
+De huidige build configuraties maken gebruik van referencies buiten de huidige repository.
 ![Build config](/assets/libref.png)
 
 ## Gebreken
