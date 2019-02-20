@@ -50,7 +50,7 @@ Voor SAP of Coresuite aplicaties is er ook nog een current folder. Die folder is
 ## Huidige build server
 ![Finalbuild server 7](/assets/finalbuildheader.png)
 
-De huidige build server build projecten wanneer een developer de build triggerd. De successvolle builds worden den gedeployed naar een staging server die ook als ftp server dient.
+De huidige build server build projecten wanneer een developer de build triggerd. De successvolle builds worden dan gedeployed naar een staging server die ook als ftp server dient.
 
 ## Build configuratie
 De huidige build configuraties maken gebruik van referencies buiten de huidige repository.
@@ -58,7 +58,7 @@ De huidige build configuraties maken gebruik van referencies buiten de huidige r
 
 ## Gebreken
 
-Wanneer nu een applicatie van de repo gehaald wordt moeten ook de volledige Lib en LibExt opgehaald worden. Dit maakt het builden traag omdat heel wat nutteloze bestanden worden opgehaald. Ook moet de juiste versie van de SAP connector of van Coresuite in de current folder worden gezet. Er moeten dus nog redelijk wat stappen uitgevoerd worden voor een developer klaar is om da huidige repo versie draaiende te krijgen.
+Wanneer nu een applicatie van de repo gehaald wordt moeten ook de volledige Lib en LibExt opgehaald worden. Dit maakt het builden traag omdat heel wat nutteloze bestanden worden opgehaald. Ook moet de juiste versie van de SAP-connector of van Coresuite in de current folder worden gezet. Er moeten dus nog redelijk wat stappen uitgevoerd worden voor een developer klaar is om da huidige repo versie draaiende te krijgen.
 
 Er is momenteel ook nog geen continious integration dus er is dus niet altijd een nieuwste kant en klare versie van de applicatie beschikbaar voor testen.
 
