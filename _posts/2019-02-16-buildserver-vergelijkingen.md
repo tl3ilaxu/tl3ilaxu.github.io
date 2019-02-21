@@ -4,30 +4,6 @@ title: Onderzoek naar huidige buildservers op de markt en bedrijfsinfrastructuur
 ---
 
 De bedoeling van dit onderzoek is om te kijken naar de huidige structuur van een bedrijf en te zien waar de gebreken zitten. Vervolgens om te onderzoeken welke buildserver kan gebruikt worden om Continous Integration te bekomen.
-# Inhoud
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Inhoud](#inhoud)
-- [Huidige infrastructuur](#huidige-infrastructuur)
-	- [Source control](#source-control)
-	- [Libaries](#libaries)
-	- [Huidige build server](#huidige-build-server)
-	- [Build configuratie](#build-configuratie)
-	- [Gebreken](#gebreken)
-- [Build server](#build-server)
-	- [Waarom?](#waarom)
-- [Jenkins](#jenkins)
-- [Azure DevOps](#azure-devops)
-- [Gitlab](#gitlab)
-- [Andere build servers die te duur of irrelevant zijn bevonden](#andere-build-servers-die-te-duur-of-irrelevant-zijn-bevonden)
-	- [Travis](#travis)
-	- [Buddy](#buddy)
-	- [GoCD](#gocd)
-	- [Teamcity](#teamcity)
-	- [Finalbuilder](#finalbuilder)
-- [Demos](#demos)
-
-<!-- /TOC -->
 
 # Huidige infrastructuur
 ## Source control
