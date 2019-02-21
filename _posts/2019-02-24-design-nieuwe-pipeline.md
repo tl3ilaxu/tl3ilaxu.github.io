@@ -2,7 +2,7 @@
 layout: post
 title: Design van een demo pipeline
 ---
-De huidige workflow zoals besproken in deze [post]({% post_url 2019-02-16-buildserver-vergelijkingen.md %}) is niet ideaal. Toch moet er een build server demo gemaakt worden die werkt met de huidige workflow.
+De huidige workflow zoals besproken in deze [post]({% post_url 2019-02-16-buildserver-vergelijkingen %}) is niet ideaal. Toch moet er een build server demo gemaakt worden die werkt met de huidige workflow.
 
 
 # Design pipline
