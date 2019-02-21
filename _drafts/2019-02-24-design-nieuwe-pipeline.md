@@ -49,7 +49,7 @@ Zoals vermeld in de vorige post wordt gebruik gemaakt van een "current" folder o
 
 Om dit werkende te krijgen voor een demo maken we gebruik van een symlink.
 
-![Library pipline diagram](/assets/librarypipe.png)
+![Library pipline diagram](/assets/libraryPipe.png)
 
 
 De symlink wordt dan gelockt vanaf de build begint tot nadat `nuget restore` gebeurd is.
