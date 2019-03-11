@@ -51,9 +51,15 @@ Een `.nuspec` bestand is een definitie bestand voor nuget. Dit bestand wordt ing
 De Lib repository wordt met de build server dan automatisch gebuild. De deployment pipline maakt dan een binary, vervolgens wordt er `nuget pack` op aangeroepen met een nuspec file. Zo wordt dan een nupkg file gegenereerd. Die wordt dan gekopieerd naar de lokale package server.
 
 ## NuGet.server
+
 NuGet.server is een package die een http(s) nuget repository opzet.
+
 ![Initeele pipeline diagram](/assets/installnugetserver.png)
+
 De server accepteerd ook een package die, mits de juiste api key, geupload wordt naar de server.
+
 ### Nuget caching proxy server
+
 Om lokaal te kunnen werken wanneer het uplink internet wegvalt kan de package server ook request cachen van de nuget repository. Op die manier zijn alle packages lokaal beschikbaar.
+
 ![Initeele pipeline diagram](/assets/nugetlibpipe.png)
